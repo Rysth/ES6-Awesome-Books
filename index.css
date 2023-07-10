@@ -1,5 +1,7 @@
 body {
   font-family: 'Comic Neue', cursive;
+  position: relative;
+  min-height: 97vh;
 }
 
 input,
@@ -9,6 +11,10 @@ button {
 
 a {
   text-decoration: none;
+}
+
+main {
+  overflow: auto;
 }
 
 .container {
@@ -126,6 +132,10 @@ a {
   align-items: center;
 }
 
+.footer {
+  background-color: white;
+}
+
 .footer-content {
   padding: 1em;
 }
@@ -138,9 +148,5 @@ a {
   .menu {
     gap: 2em;
     text-align: left;
-  }
-
-  .footer {
-    bottom: 0;
   }
 }
