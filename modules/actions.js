@@ -1,5 +1,5 @@
 import * as Elements from './elements.js';
-import { books } from './objects.js';
+import books from './objects.js';
 
 Elements.form.addEventListener('submit', (e) => {
   e.preventDefault();

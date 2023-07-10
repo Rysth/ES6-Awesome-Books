@@ -1,7 +1,7 @@
-import { Books } from './classes.js';
+import Books from './classes.js';
 
 /* Books Collection Object */
 const books = new Books();
 books.displayBooks();
 
-export { books };
+export default books;

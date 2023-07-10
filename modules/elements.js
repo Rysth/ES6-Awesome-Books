@@ -9,4 +9,6 @@ const contentItems = Array.from(document.querySelectorAll('.content'));
 /* Date Items */
 const todayDate = document.querySelector('#today-date');
 
-export { form, bookList, menuItems, contentItems, todayDate };
+export {
+  form, bookList, menuItems, contentItems, todayDate,
+};

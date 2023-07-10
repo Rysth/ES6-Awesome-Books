@@ -1,6 +1,6 @@
 import { form, bookList } from './elements.js';
 
-class Books {
+export default class Books {
   constructor() {
     this.books = [];
 
@@ -16,7 +16,7 @@ class Books {
           "${book.title.toUpperCase()}" by ${book.author}
           <button class="btn btn-remove box-shadow" data-index="${index}">Remove</button>
         </li>
-      `
+      `,
           )
           .join('');
       }
@@ -38,5 +38,3 @@ class Books {
     };
   }
 }
-
-export { Books };
