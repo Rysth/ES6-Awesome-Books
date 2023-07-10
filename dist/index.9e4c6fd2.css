@@ -1,0 +1,150 @@
+body {
+  min-height: 97vh;
+  font-family: Comic Neue, cursive;
+  position: relative;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  overflow: auto;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 800px;
+}
+
+.padding-3 {
+  padding: 3em 0;
+}
+
+.border-dark {
+  border: 3px solid #000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.h1 {
+  font: 700 40px Comic Neue, cursive;
+}
+
+.hide {
+  display: none;
+}
+
+.date {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.nav-bar {
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5em 1em;
+  display: flex;
+}
+
+.menu {
+  text-align: center;
+  gap: 1em;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.menu-item {
+  color: #000;
+}
+
+.line {
+  background-color: #000;
+  width: 15%;
+  margin: 40px auto;
+  padding: 1px;
+}
+
+.box-shadow {
+  border: 1px solid #000;
+  box-shadow: 4px 4px #000;
+}
+
+.bookList {
+  gap: 2em;
+  padding: 1em;
+  display: grid;
+}
+
+.form {
+  gap: 1rem;
+  max-width: 350px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.form-input {
+  padding: .25em;
+  font-size: 1.25rem;
+}
+
+.btn {
+  cursor: pointer;
+  width: 5em;
+  padding: .25em;
+  font-size: 1.15rem;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-add {
+  color: #fff;
+  background-color: green;
+}
+
+.btn-remove {
+  color: #fff;
+  background-color: red;
+}
+
+.lineBook {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+.footer-content {
+  padding: 1em;
+}
+
+@media (width >= 768px) {
+  .nav-bar {
+    flex-direction: row;
+  }
+
+  .menu {
+    text-align: left;
+    gap: 2em;
+  }
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

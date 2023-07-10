@@ -6,4 +6,7 @@ const bookList = document.getElementById('bookList');
 const menuItems = Array.from(document.querySelectorAll('.menu-item'));
 const contentItems = Array.from(document.querySelectorAll('.content'));
 
-export { form, bookList, menuItems, contentItems };
+/* Date Items */
+const todayDate = document.querySelector('#today-date');
+
+export { form, bookList, menuItems, contentItems, todayDate };
