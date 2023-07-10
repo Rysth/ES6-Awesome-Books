@@ -1,0 +1,146 @@
+body {
+  font-family: 'Comic Neue', cursive;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 800px;
+}
+
+.padding-3 {
+  padding: 3em 0;
+}
+
+.border-dark {
+  border: solid 3px black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.h1 {
+  font: 700 40px 'Comic Neue', cursive;
+}
+
+.hide {
+  display: none;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Navigation Styles */
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+
+.menu {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  gap: 1em;
+  text-align: center;
+}
+
+.menu-item {
+  color: black;
+}
+
+.line {
+  background-color: black;
+  padding: 1px;
+  width: 15%;
+  margin: 40px auto;
+}
+
+.box-shadow {
+  box-shadow: 4px 4px 0 black;
+  border: 1px solid black;
+}
+
+.bookList {
+  padding: 1em;
+  display: grid;
+  gap: 2em;
+}
+
+.form {
+  display: grid;
+  max-width: 350px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.form-input {
+  font-size: 1.25rem;
+  padding: 0.25em;
+}
+
+.btn {
+  padding: 0.25em;
+  font-size: 1.15rem;
+  width: 5em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-add {
+  background-color: green;
+  color: white;
+}
+
+.btn-remove {
+  background-color: red;
+  color: white;
+}
+
+.lineBook {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content {
+  padding: 1em;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    flex-direction: row;
+  }
+
+  .menu {
+    gap: 2em;
+    text-align: left;
+  }
+
+  .footer {
+    bottom: 0;
+  }
+}

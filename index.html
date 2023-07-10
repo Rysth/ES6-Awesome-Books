@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books - Carlos & John</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=IBM+Plex+Serif:ital,wght@1,300&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <div class="container">
+      <nav class="nav-bar border-dark">
+        <h1 class="text-center">All awesome books</h1>
+        <ul class="menu">
+          <li><a href="#" class="menu-item" id="list">List</a></li>
+          <li>|</li>
+          <li><a href="#" class="menu-item" id="add">Add New</a></li>
+          <li>|</li>
+          <li><a href="#" class="menu-item" id="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Content -->
+    <main>
+      <div id="item-list" class="content list padding-3">
+        <div class="container container-sm">
+          <div class="date">
+            <p class="today-date">May 5th 2023, 11:57</p>
+          </div>
+          <h2 class="h3 text-center">All awesome books</h2>
+          <div class="container border-dark">
+            <ul id="bookList"></ul>
+          </div>
+        </div>
+      </div>
+      <div id="item-add" class="content hide padding-3">
+        <div class="container container-sm">
+          <div class="date">
+            <p class="today-date">May 5th 2023, 11:57</p>
+          </div>
+          <h2 class="text-center">Add a new book</h2>
+          <form class="form">
+            <label for="bookTitle">Book Title:</label>
+            <input
+              type="text"
+              id="bookTitle"
+              class="form-input box-shadow"
+              required
+            />
+            <label for="authorName">Author Name:</label>
+            <input
+              type="text"
+              id="authorName"
+              class="form-input box-shadow"
+              required
+            />
+            <div class="text-center">
+              <button class="btn box-shadow btn-add" type="submit" id="addBtn">
+                Add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="item-contact" class="content hide padding-3">
+        <div class="container container-sm">
+          <div class="date">
+            <p class="today-date">May 5th 2023, 11:57</p>
+          </div>
+          <h2 class="text-center">Contact Information</h2>
+          <div class="text">
+            <p>Do you have any questions or just want to say "hello"?</p>
+            <p>You can reach out to us!</p>
+          </div>
+          <ul>
+            <li>Our E-mail fakeEmail@false.com</li>
+            <li>Our fake phone number 04052023</li>
+            <li>Our address street false 123</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content container border-dark">
+        <p>Copyright ...</p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
