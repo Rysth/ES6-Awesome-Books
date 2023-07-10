@@ -1,33 +1,78 @@
-# Awesome Books Application
+<div align="center">
+  <h3><b>John Palacios - Microverse Student</b></h3>
+</div>
 
-This is an Awesome Books application built with HTML, CSS, and JavaScript ES6. The application allows users to save and manage book information, including the book title and author. The book data is stored using the browser's `localStorage` feature.
+<!-- TABLE OF CONTENTS -->
 
-## Table of Contents
+# 📗 Table of Contents
 
-- [Features](#features)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Future Features](#future-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Test](#test)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## Features
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 ES6 Awesome Books App <a name="about-project"></a>
+
+**ES6 Awesome Books App** This is an Awesome Books application built with HTML, CSS, and JavaScript ES6. The application allows users to save and manage book information, including the book title and author. The book data is stored using the browser's `localStorage` feature.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/js/">JavaScript ES6</a></li>
+    <li><a href="https://moment.github.io/luxon/">Luxon</a></li>
+    <li><a href="https://parceljs.org/">Parcel</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
 
 - Add new books with their title and author.
 - Display a list of saved books.
 - Remove books from the list.
 - Store book data using `localStorage`.
 
-## Built With
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- HTML
-- CSS
-- JavaScript ES6
-- [Luxon](https://moment.github.io/luxon/) - A library for working with dates and times in JavaScript.
-- [Parcel](https://parceljs.org/) - A web application bundler.
+### Future Features <a name="future-features"></a>
 
-## Getting Started
+- **Implement a CSS Preprocessor.**
+- **Implement a Database**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+### Take a Look
+
+- [Live Demo Link](https://rysth.github.io/ES6-Awesome-Books/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Setup
 
 To get a local copy up and running, follow these steps:
 
@@ -37,23 +82,60 @@ To get a local copy up and running, follow these steps:
 4. Build the project: `npm run build`
 5. Open `index.html` in your web browser.
 
-## Usage
+Then, you will change everything you want!
 
-1. Enter the book title and author in the input fields.
-2. Click the "Add Book" button to save the book.
-3. The book will be displayed in the list section.
-4. To remove a book, click the "Remove" button next to it.
+### Test
 
-## Contributing
+In order to follow the Linters you could check them using this:
 
-Contributions are welcome! If you find any bugs or want to add new features, please open an issue or submit a pull request.
+```
+HTML Checker:
+npx hint .
 
-## License
+CSS Checker:
+npx stylelint "**/*.{css,scss}"
 
-This project is licensed under the [MIT License](./LICENSE.md).
+JavaScript Checker:
+npx eslint .
+```
 
-## Contact
+#### Note
 
-- GitHub: [RysthCraft](https://github.com/RysthCraft)
+Use at the end '--fix' to help you out with any error.
 
-Feel free to reach out if you have any questions or suggestions!
+## 👥 Authors <a name="authors"></a>
+
+👤 **Rysth**
+
+- GitHub: [@rysth](https://github.com/RysthCraft)
+- Linkedin: [@johnpalacios](https://www.linkedin.com/in/john-palacios-rysth/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project feel free to watch it and take some features that will enhance your project
+as well.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the Microverse Team for reviewing my code and making me a better
+professional.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
