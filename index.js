@@ -1,5 +1,5 @@
 import './modules/actions.js';
-import { DateTime } from 'luxon';
+import { DateTime } from './modules/luxon.min.js';
 import { todayDate } from './modules/elements.js';
 
 window.onload = () => {
