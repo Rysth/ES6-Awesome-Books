@@ -25,7 +25,7 @@
 
 # 📖 ES6 Awesome Books App <a name="about-project"></a>
 
-ES6 Awesome Books App is a book management application using HTML, CSS, and JavaScript ES6. Users can store and organize book information using the browser's localStorage.
+ES6 Awesome Books App is a book management application where users can store and organize book information. Build with HTML, CSS, and JavaScript. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
